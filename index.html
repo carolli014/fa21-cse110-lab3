@@ -3,11 +3,139 @@
     <head>
       <title>Meeting Minutes</title>
       <meta name="author" content="Minghui Li">
+      <link rel="icon" type="image/png" href="favicon_io/favicon-16x16.png">
     </head>
     <body>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+      <main>
+        <header>
+          <section>
+            <h1>Toronto Association of Beekeepers <span style="font-size:15px;">Meeting Minutes</span></h1>
+            <h3><i>October 3, 2021</i></h3>
+          </section>
+          <section>
+            <h2>Attendance List</h2>
+            <ul>
+              <li>Sam</li>
+              <li>Erin</li>
+              <li>Lerie</li>
+              <li>Alice</li>
+              <li>Kevin</li>
+              <li>Olivia</li>
+              <li>Paul</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Agenda</h2>
+            <ol>
+              <li>Review agency performance to date and compare against benchmarks</li>
+              <li>Discussion: Does missing benchmarks warrant a change? Is it worth the costs?</li>
+              <li><strong>Decision: Should we renew with them for another year?</strong></li>
+            </ol>
+          </section>
+          <section>
+            <div>
+              <h2>Business from the Previous Meeting</h2>
+              <b>New Hive Research:</b>
+              <p>Olivia explained the result of the research she head been doing into the new brand of hives that some memebers have been purchasing. She found that to buy them in bulk for the association 
+                would be too expensive, and recommended <em>against it</em>. 
+                <br>
+                Her motion to dismiss this proposal was seconded and passed.</p>
+                <hr>
+              <b>Budget Committee Report:</b>
+              <p>The budget for 2019 has been finalized, and was distributed at this meeting by Sam, who led the commitee. He ran through
+                an itemized list of the line items, with board members asking questions perioadically. The main change from 2018's budget was an increased marketing spend. 
+                <br>
+                The motion to accept the revised budget was seconded and passed.
+              </p>
+            </div>
+          </section>
+          <section>
+            <div>
+              <h2>New Business</h2>
+              <b>Meeting Plan for Gala:</b>
+              <p>Deferred for next meeting as Carol was not in attendance.</p>
+            </div>
+          </section>
+          <section>
+            <h2>Micellaneous</h2>
+            <p>Alice made a motion that a honey sale at the local farmers' market be discussed. Kevin dismissed the motion, and proposed adding it to next month's meeting instead. Paul seconded that motion, and it was added to the agenda for next meeting.
+            </p>
+          </section>
+          <section>
+            <h2>Summary</h2>
+            <details>
+              <summary>Epcot Center</summary>
+              <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+            </details>
+            <button type="button" onclick="alert('Thank you for joining the meeting!')">Click Me!</button>
+          </section>
+          <section>
+            <h2>Documentation</h2>
+            <img src="./documentation/bee.jpg" alt="beekeepers">
+          </section>
+          <section>
+            <h2>Video Recording</h2>
+            <video  width="320" height="240" controls>
+              <source src="./meeting/videoMeeting.mp4" type="video/mp4">
+            </video>
+          </section>
+          <section>
+            <h2>Audio Recording</h2>
+            <audio controls>
+              <source src="./meeting/audioMeeting.m4a" type="audio/mpeg">
+            </audio>
+          </section>
+          <section>
+            <form>
+              <fieldset>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="date">Date:</label><br>
+                <input type="date" id="date:" name="date"><br>
+                <input type="radio" name="attendance">
+                <label for="ontime">On Time</label>
+                <input type="radio" name="attendance">
+                <label for="notontime">Late</label><br><br>
+                <label for="meetingtime">Avaliable Time:</label><br>
+                <input type="checkbox" name="time">
+                <label for="option1">10 am, Oct 11</label><br>
+                <input type="checkbox" name="time">
+                <label for="option2">10 am, Oct 12</label><br>
+                <input type="checkbox" name="time">
+                <label for="option3">10 am, Oct 13</label><br><br>
+                <label for="review">Feedback for The Meeting:</label><br>
+                <textarea id="review" name="review" rows="4" cols="50"></textarea><br><br>
+              </fieldset>
+              <fieldset>
+                <label for="topic">Choose your favorite topic from the list:</label>
+                <input list="topics" name="topic" id="topic">
+                <datalist id="topics">
+                  <option value="Website">
+                  <option value="IOS apps">
+                  <option value="Andriod apps">
+                  <option value="Video games">
+                </datalist>
+                <br><br>
+                <label for="language">Choose a language:</label>
+                <select name="language" id="language">
+                  <option value="java">Java</option>
+                  <option value="C++">C++</option>
+                  <option value="Python">Python</option>
+                </select>
+              </fieldset>
+              <br><br>
+              <input type="submit" value="Submit"><br><br>
+            </form>
+          </section>
+        </header>
+        <nav>
+          <a href="https://www.wildapricot.com/blog/how-to-write-meeting-minutes">Reference</a>
+        </nav>
+        <footer>
+          <p>Author: Minghui Li</p>
+        </footer>
+      </main>
     </body>
 </html>
