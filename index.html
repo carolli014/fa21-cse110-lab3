@@ -3,6 +3,7 @@
     <head>
       <title>Meeting Minutes</title>
       <meta name="author" content="Minghui Li">
+      <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
       <link rel="icon" type="image/png" href="favicon_io/favicon-16x16.png">
     </head>
     <body>
@@ -62,10 +63,14 @@
             </p>
           </section>
           <section>
-            <h2>Summary</h2>
+            <h2>Next Meeting</h2>
             <details>
-              <summary>Epcot Center</summary>
-              <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+              <summary>Agenda</summary>
+              <ul>
+                <li>Marketing Plan for Gala</li>
+                <li>Gala Agenda</li>
+                <li>Farmer's Market Honey Sale</li>
+              </ul>
             </details>
             <button type="button" onclick="alert('Thank you for joining the meeting!')">Click Me!</button>
           </section>
@@ -93,17 +98,17 @@
                 <label for="lname">Last name:</label><br>
                 <input type="text" id="lname" name="lname"><br>
                 <label for="date">Date:</label><br>
-                <input type="date" id="date:" name="date"><br>
-                <input type="radio" name="attendance">
+                <input type="date" id="date" name="date"><br>
+                <input type="radio" id="ontime" name="attendance">
                 <label for="ontime">On Time</label>
-                <input type="radio" name="attendance">
+                <input type="radio" id="notontime" name="attendance">
                 <label for="notontime">Late</label><br><br>
-                <label for="meetingtime">Avaliable Time:</label><br>
-                <input type="checkbox" name="time">
+                <label>Avaliable Time:</label><br>
+                <input type="checkbox" id="option1" name="time">
                 <label for="option1">10 am, Oct 11</label><br>
-                <input type="checkbox" name="time">
+                <input type="checkbox" id="option2" name="time">
                 <label for="option2">10 am, Oct 12</label><br>
-                <input type="checkbox" name="time">
+                <input type="checkbox" id="option3" name="time">
                 <label for="option3">10 am, Oct 13</label><br><br>
                 <label for="review">Feedback for The Meeting:</label><br>
                 <textarea id="review" name="review" rows="4" cols="50"></textarea><br><br>
