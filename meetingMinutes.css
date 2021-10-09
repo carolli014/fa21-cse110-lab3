@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+  }
+  h2 {
+    color: #0C376B;
+  }
+  h1 {
+    color: hsl(207, 100%, 15%);
+  }
+  
+  .normText {
+    color: rgb(3, 80, 143);
+  }
+  
+  h3 {
+    color: white;
+  }
+  
+  .attendList {
+    width: 25px;
+  }
+  
+  .prevBusiness {
+    width: 15cm;
+    height: 25rem;
+  }
+  
+  .restBusiness {
+    width: 0.5in;
+  }
+  
