@@ -1,31 +1,94 @@
 body {
-    background-color: lightblue;
-  }
-  h2 {
-    color: #0C376B;
-  }
-  h1 {
-    color: hsl(207, 100%, 15%);
-  }
-  
-  .normText {
-    color: rgb(3, 80, 143);
-  }
-  
-  h3 {
-    color: white;
-  }
-  
-  .attendList {
-    width: 25px;
-  }
-  
-  .prevBusiness {
-    width: 15cm;
-    height: 25rem;
-  }
-  
-  .restBusiness {
-    width: 0.5in;
-  }
+  background-color: lightblue;
+}
+h2 {
+  color: #0C376B;
+}
+h1 {
+  color: hsl(207, 100%, 15%);
+  text-decoration: underline dotted;
+  text-align: center;
+}
+
+.normText {
+  color: rgb(3, 80, 143);
+}
+
+h3 {
+  color: white;
+}
+
+.attendList {
+  width: 25px;
+  margin: 10px 8px 10px 8px;
+}
+
+.prevBusiness {
+  width: 15cm;
+  height: 25rem;
+  padding: 10px 8px 10px 8px;
+}
+
+.restBusiness {
+  width: 0.5in;
+}
+
+/* formatting title section */
+.title {
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+/* formatting agenda section */
+.agendaSec {
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+}
+
+.newBusiness {
+  margin-top: 30px;
+  margin-left: 678px;
+}
+
+.micellaneous {
+  margin-left: 678px;
+}
+
+.nextMeeting {
+  margin-left: 678px;
+}
+
+.documentation {
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.video {
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.audio {
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.formBorder {
+    border-style: dashed solid;
+    border-color: black;
+    border-width: 0.1cm;
+    border-radius: 1;
+    margin-bottom: 20px;
+}
   
