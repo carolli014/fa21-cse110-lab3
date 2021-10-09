@@ -1,4 +1,4 @@
-#### AGILE - Daily Stand-Up
+### AGILE - Daily Stand-Up
 
 ### Meeting Purpose:
 ## Update the team on the status of work
