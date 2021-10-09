@@ -1,9 +1,12 @@
 body {
-  background-color: lightblue;
+  background-color: lightgreen;
 }
-h2 {
-  color: #0C376B;
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
 }
+
 h1 {
   color: hsl(207, 100%, 15%);
   text-decoration: underline dotted;
@@ -14,12 +17,19 @@ h1 {
   color: rgb(3, 80, 143);
 }
 
-h3 {
-  color: white;
+h2, h3 {
+  color: #0C376B;
+}
+
+div p{ 
+  font-size:15px;
+}
+
+div > section { 
+  background-color: honeydew;
 }
 
 .attendList {
-  width: 25px;
   margin: 10px 8px 10px 8px;
   position: static;
 }
@@ -37,7 +47,7 @@ h3 {
 }
 
 /* formatting title section */
-.title {
+#title {
     margin-top: 10px;
     margin-left: 8px;
     margin-right: 8px;
@@ -61,10 +71,12 @@ h3 {
 
 .micellaneous {
   margin-left: 678px;
+  padding-bottom: 10px;
 }
 
 .nextMeeting {
   margin-left: 678px;
+  margin-top: 30px;
 }
 
 .documentation {
@@ -103,6 +115,13 @@ a:hover {
 a:active {
   color: blue;
 }
+p:hover {
+  background-color: pink;
+}
+
+a[target] {
+  background-color: lightslategray;
+}
 
 .flexDiv {
   display: flex;
@@ -124,4 +143,24 @@ a:active {
   grid-template-columns: auto auto auto;
   grid-column-gap: 280px;
   grid-area: header;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.documentation {
+  margin-top: 50px;
+}
+
+h2 ~ video {
+  background: honeydew;
+}
+
+b+p {
+  font-weight: bold;
+}
+
+h2.micellaneousTopic {
+  font-style: italic;
 }
